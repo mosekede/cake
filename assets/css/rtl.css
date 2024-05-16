@@ -534,3 +534,17 @@ a.rbt-btn-link.left-icon i, button.rbt-btn-link.left-icon i, span.rbt-btn-link.l
 .bg-gradient-3 .rbt-swiper-pagination .swiper-pagination-bullet {
     box-shadow: inset 0 0 0 5px #ffae00;
 }
+
+.bg-gradient-3 .rbt-swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    box-shadow: inset 0 0 0 1px #fcd37f;
+}
+
+.rbt-section-gapBottom {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.rbt-testimonial-box .inner::before {
+    right: auto;
+    left: 40px;
+}
