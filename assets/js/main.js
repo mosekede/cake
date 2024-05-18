@@ -495,9 +495,15 @@
                 },
             });
 
-            
+            // var mySwiper = new Swiper('.mySwiper', {
+            //     navigation: {
+            //         nextEl: '.rbt-arrow-left',
+            //         prevEl: '.rbt-arrow-right',
+            //         clickable: true,
+            //     },
+            // });
 
-            var swiper = new Swiper('.course-activation-1', {
+            var course_activation_1 = new Swiper('.course-activation-1', {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
                 loop: true,
