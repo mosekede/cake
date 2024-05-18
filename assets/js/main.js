@@ -321,6 +321,10 @@
                 slidesPerView: 1,
                 spaceBetween: 0,
                 loop: false,
+                pagination: {
+                    el: '.rbt-swiper-pagination',
+                    clickable: true,
+                },
                 navigation: {
                     nextEl: '.rbt-arrow-left',
                     prevEl: '.rbt-arrow-right',
@@ -459,19 +463,19 @@
             var swiper = new Swiper('.event-activation-1', {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
-                loop: true,
+                // loop: true,
                 spaceBetween: 30,
                 navigation: {
                     nextEl: '.rbt-arrow-left',
                     prevEl: '.rbt-arrow-right',
                     clickable: true,
                 },
-                scrollbar: {
-                    el: '.swiper-scrollbar',
-                        draggable: true,
-                        hide: true,
-                        snapOnRelease: true
-                },
+                // scrollbar: {
+                //     el: '.swiper-scrollbar',
+                //         draggable: true,
+                //         hide: true,
+                //         snapOnRelease: true
+                // },
                 pagination: {
                     el: '.rbt-swiper-pagination',
                     clickable: true,
@@ -506,7 +510,7 @@
             var course_activation_1 = new Swiper('.course-activation-1', {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
-                loop: true,
+                // loop: true,
                 spaceBetween: 30,
                 navigation: {
                     nextEl: '.rbt-arrow-left',
@@ -522,7 +526,12 @@
                 pagination: {
                     el: '.rbt-swiper-pagination',
                     clickable: true,
+                    
                 },
+                utoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  },
                 breakpoints: {
                     575: {
                       slidesPerView: 1,
