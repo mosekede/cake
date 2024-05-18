@@ -619,7 +619,7 @@ body {
   overflow-y: scroll;
   scrollbar-width: thin;
 }
-@media only screen and (max-width: 767px) {
+dia only screen and (ma@mex-width: 767px) {
   body {
     font-size: 16px;
     line-height: 1.5;
