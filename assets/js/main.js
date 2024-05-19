@@ -499,6 +499,45 @@
                 },
             });
 
+            var swiper = new Swiper('.store-category', {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                // loop: true,
+                spaceBetween: 30,
+                navigation: {
+                    nextEl: '.rbt-arrow-left',
+                    prevEl: '.rbt-arrow-right',
+                    clickable: true,
+                },
+                // scrollbar: {
+                //     el: '.swiper-scrollbar',
+                //         draggable: true,
+                //         hide: true,
+                //         snapOnRelease: true
+                // },
+                pagination: {
+                    el: '.rbt-swiper-pagination',
+                    clickable: true,
+                },
+                breakpoints: {
+                    575: {
+                      slidesPerView: 2,
+                    },
+
+                    768: {
+                      slidesPerView: 3,
+                    },
+
+                    992: {
+                      slidesPerView: 4,
+                    },
+                    1200: {
+                      slidesPerView: 4,
+                      slidesPerGroup: 4,
+                    },
+                },
+            });
+
             // var mySwiper = new Swiper('.mySwiper', {
             //     navigation: {
             //         nextEl: '.rbt-arrow-left',

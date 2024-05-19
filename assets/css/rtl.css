@@ -100,7 +100,7 @@
 	--line-height-b3: 1.67;
 	--line-height-b4: 1;
 	--h1: 52px;
-	--h2: 44px;
+	--h2: 40px;
 	--h3: 34px;
 	--h4: 30px;
 	--h5: 20px;
@@ -290,8 +290,8 @@ ul.rbt-dropdown-menu li a .left-image {
 }
 
 .rbt-btn.btn-gradient {
-    background-image: linear-gradient(to right, var(--color-secondary), var(--color-primary), var(--color-primary), var(--color-secondary));
-	background-size: 250% 100%;
+    background-image: linear-gradient(to right, var(--color-secondary), var(--color-secondary), var(--color-primary), var(--color-secondary));
+    background-size: 300% 100%;
 }
 
 .rbt-btn i {
@@ -419,8 +419,8 @@ a.rbt-btn-link i, button.rbt-btn-link i, span.rbt-btn-link i {
 }
 
 .header-right .rbt-btn.btn-gradient {
-    background-image: linear-gradient(to right, var(--color-secondary), var(--color-primary), var(--color-primary), var(--color-secondary));
-    background-size: 250% 100%;
+    background-image: linear-gradient(to right, var(--color-secondary), var(--color-secondary), var(--color-primary), var(--color-secondary));
+    background-size: 300% 100%;
 }
 
 .bg-primary-opacity {
@@ -563,6 +563,49 @@ a.rbt-btn-link.left-icon i, button.rbt-btn-link.left-icon i, span.rbt-btn-link.l
     padding-top: 20px;
 }
 
+.rbt-arrow-between .rbt-swiper-arrow:hover {
+    color: #ffffff;
+}
+
+.rbt-arrow-between .rbt-swiper-arrow::after {
+    background-color: #ffae00;
+}
+
+.rbt-arrow-between .rbt-swiper-arrow {
+    color: var(--color-white);
+}
+
+.quick.access.col-lg-6.col-md-6.col-sm-6.col-12 {
+    display: flex;
+}
+
+ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
+    margin-top: 8px !important;
+}
+
+.copyright-style-1 .copyright-link li + li::after {
+    left: auto;
+    right: 0;
+}
+
+.footer-top {
+    background-image: linear-gradient(45deg, #24b57726, #ffae0026);
+}
+
+.swiper .rbt-cat-box-1 .inner {
+    box-shadow: var(--shadow-light);
+    box-shadow: var(--shadow-1);
+}
+
+.swiper-wrapper {
+    padding-top: 30px;
+}
+
+.rbt-section-gapBottom {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
 
 @media only screen and (max-width: 767px) {
 	.about-style-2 .slider-btn {
@@ -571,11 +614,28 @@ a.rbt-btn-link.left-icon i, button.rbt-btn-link.left-icon i, span.rbt-btn-link.l
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	.header-right .rbt-btn.btn-gradient {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rbt-banner-1 .content .banner-card {
+        position: absolute;
+        max-width: 290px;
+        bottom: 12%;
+        right: auto;
+        z-index: 2;
+        left: 40px;
+    }
+}
 .bg-color-primary-opacity {
 		background: #ffae0014 !important;
 	}
 
 .logo a img {
-		max-height: 90px;
+		max-height: 140px;
 		object-fit: cover;
 	}
+
