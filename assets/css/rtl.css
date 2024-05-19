@@ -606,6 +606,31 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
     padding-top: 60px;
 }
 
+.text-start {
+    text-align: right!important;
+}
+
+.rbt-badge-2 .image {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.rbt-minicart-wrapper .product-content {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.rbt-btn i {
+    padding-right: 20px;
+    padding-left: 0px;
+    padding-left: 5px;
+}
+
+.about-author .thumbnail a img {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
 
 @media only screen and (max-width: 767px) {
 	.about-style-2 .slider-btn {
