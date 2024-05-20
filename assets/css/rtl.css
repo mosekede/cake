@@ -294,11 +294,6 @@ ul.rbt-dropdown-menu li a .left-image {
     background-size: 300% 100%;
 }
 
-.rbt-btn i {
-    padding-right: 6px;
-	padding-left: 0px;
-}
-
 .rbt-btn:hover.hover-icon-reverse .btn-text {
     transform: translateX(-23px);
 }
@@ -494,7 +489,7 @@ a.rbt-btn-link.left-icon i, button.rbt-btn-link.left-icon i, span.rbt-btn-link.l
 
 .rbt-counterup .inner .content .counter {
     direction: ltr;
-    font-family:
+    font-family: 'PARSAVESTA';
 }
 
 .odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-default .odometer-digit .odometer-value {
@@ -620,15 +615,172 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
     padding-right: 20px;
 }
 
+.about-author .thumbnail a img {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.popup-mobile-menu .mainmenu .has-menu-child-item > a::after, .popup-mobile-menu .mainmenu .has-dropdown > a::after {
+    right: auto;
+    left: 0;
+}
+
+.popup-mobile-menu .inner-wrapper .inner-top .logo a img {
+    max-height: 70px;
+}
+
+.aparat svg {
+    width: 18px;
+    height: 18px;
+    fill: #6b7385 !important;
+    transition: 0.3s;
+}
+.footer-top .aparat svg:hover {
+    fill: #ffae00 !important;
+}
+
+.aparat-header svg {
+    width: 18px;
+    height: 18px;
+    fill: #b3b7bc !important;
+    transition: 0.3s;
+}
+.aparat-header svg:hover {
+    fill: #ffffff !important;
+}
+
+.aparat-course-details svg {
+    width: 18px;
+    height: 18px;
+    fill: #6d7586 !important;
+    transition: 0.3s;
+}
+/* .aparat-course-details svg:hover {
+    fill: #ffffff !important;
+} */
+
+.rbt-breadcrumb-default.rbt-breadcrumb-style-3 {
+    background-image: linear-gradient(268deg, #24b57726, #ffae0026);
+}
+
+.ml--10 {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.rbt-show-more-btn::after {
+    right: auto;
+}
+
+.rbt-course-main-content .course-content-left i {
+    padding-right: 0;
+    padding-left: 6px;
+}
+
+.rbt-list-style-1 li i {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.rbt-inner-onepage-navigation {
+    border-radius: var(--radius);
+}
+
+.review-wrapper span.value-text {
+    right: auto;
+    left: 0;
+}
+
+.review-wrapper .progress {
+    margin-left: 0;
+    margin-right: 115px;
+}
+
+.about-author .thumbnail a img {
+    min-width: 60px;
+    max-height: 70px;
+}
+
+.rbt-gradient-border {
+    background: linear-gradient(-145deg, #0eb582, #ffae00) !important;
+}
+
+
+.rbt-price-wrapper.d-flex.flex-wrap.align-items-center.justify-content-center {
+    padding: 5px;
+    background: #fff3d9;
+    border-radius: 5px;
+    border: 2px dashed #ffae00;
+}
+
+.rbt-badge-2 strong {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.contact-with-us .rbt-badge-2 {
+    background: rgb(255 255 255 / 80%);
+}
+
+.rbt-badge-2 {
+    box-shadow: 0 12px 22px 0 rgb(213 213 213 / 28%);
+}
+
 .rbt-btn i {
-    padding-right: 20px;
+    padding-right: 10px;
     padding-left: 0px;
     padding-left: 5px;
 }
 
-.about-author .thumbnail a img {
+.text-md-start {
+    text-align: right !important;
+}
+
+.rbt-price.large-size .current-price {
+    font-size: 25px;
+}
+
+.rbt-user-menu-list-wrapper .user-list-wrapper li a img, .rbt-user-menu-list-wrapper .user-list-wrapper li a i {
+    max-height: 17px;
     margin-right: 0;
-    margin-left: 30px;
+    margin-left: 7px;
+}
+
+.copyright-area.copyright-style-1.ptb--20 {
+    background-image: linear-gradient(45deg, #24b57726, #ffae0026);
+}
+
+.footer-style-1 .footer-top {
+    padding-bottom: 50px;
+}
+
+.copyright-area a {
+    position: relative;
+    color: #ffae00;
+}
+
+.social-default li a:hover svg{
+    fill: #fff !important;
+}
+
+.rbt-instructor .about-author .thumbnail a img {
+    min-width: 170px;
+    max-height: 170px;
+}
+
+.rbt-meta li i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.swiper {
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+.rbt-testimonial-box .clint-info-wrapper .client-info {
+    padding-left: 0;
+    padding-right: 20px;
 }
 
 .popup-mobile-menu .mainmenu .has-menu-child-item > a::after, .popup-mobile-menu .mainmenu .has-dropdown > a::after {
