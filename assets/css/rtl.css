@@ -631,6 +631,11 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
     margin-left: 30px;
 }
 
+.popup-mobile-menu .mainmenu .has-menu-child-item > a::after, .popup-mobile-menu .mainmenu .has-dropdown > a::after {
+    right: auto;
+    left: 0;
+}
+
 
 @media only screen and (max-width: 767px) {
 	.about-style-2 .slider-btn {
