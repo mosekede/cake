@@ -463,7 +463,7 @@
             var swiper = new Swiper('.event-activation-1', {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
-                // loop: true,
+                loop: true,
                 spaceBetween: 30,
                 navigation: {
                     nextEl: '.rbt-arrow-left',
@@ -494,7 +494,7 @@
                     },
                     1200: {
                       slidesPerView: 3,
-                      slidesPerGroup: 3,
+                    //   slidesPerGroup: 3,
                     },
                 },
             });
@@ -502,7 +502,7 @@
             var swiper = new Swiper('.store-category', {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
-                // loop: true,
+                loop: true,
                 spaceBetween: 30,
                 navigation: {
                     nextEl: '.rbt-arrow-left',
@@ -533,7 +533,7 @@
                     },
                     1200: {
                       slidesPerView: 4,
-                      slidesPerGroup: 4,
+                    //   slidesPerGroup: 4,
                     },
                 },
             });
@@ -549,7 +549,7 @@
             var course_activation_1 = new Swiper('.course-activation-1', {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
-                // loop: true,
+                loop: true,
                 spaceBetween: 30,
                 navigation: {
                     nextEl: '.rbt-arrow-left',
@@ -585,7 +585,73 @@
                     },
                     1200: {
                       slidesPerView: 3,
-                      slidesPerGroup: 3,
+                    //   slidesPerGroup: 3,
+                    },
+                },
+            });
+
+            // تست گالری محصول
+            var swiper = new Swiper(".swipr-single-product", {
+                loop: true,
+                zoom: true,
+                spaceBetween: 10,
+                slidesPerView: 4,
+                freeMode: true,
+                watchSlidesProgress: true,
+              });
+              var swiper2 = new Swiper(".swipr-single-product2", {
+                loop: true,
+                spaceBetween: 10,
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+                thumbs: {
+                  swiper: swiper,
+                },
+              });
+            // تست گالری محصول
+
+            var course_activation_1 = new Swiper('.gallery-gingle-course', {
+                slidesPerView: 1,
+                // slidesPerGroup: 1,
+                loop: true,
+                spaceBetween: 20,
+                navigation: {
+                    nextEl: '.rbt-arrow-left',
+                    prevEl: '.rbt-arrow-right',
+                    clickable: true,
+                },
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                        draggable: true,
+                        hide: true,
+                        snapOnRelease: true
+                },
+                pagination: {
+                    el: '.rbt-swiper-pagination',
+                    clickable: true,
+                    
+                },
+                utoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  },
+                breakpoints: {
+                    575: {
+                      slidesPerView: 2,
+                    },
+
+                    768: {
+                      slidesPerView: 3,
+                    },
+
+                    992: {
+                      slidesPerView: 3,
+                    },
+                    1200: {
+                      slidesPerView: 3,
+                    //   slidesPerGroup: 4,
                     },
                 },
             });
@@ -1011,7 +1077,7 @@
                 // declare variable
                 var topPos = $(this).scrollTop();
                 // if user scrolls down - show scroll to top button
-                if (topPos > 250) {
+                if (topPos > 250 && $(document).width() >= 767 ) {
                     $(scrollTop).css('display', 'none');
                 } else {
                     $(scrollTop).css('display', 'block');
