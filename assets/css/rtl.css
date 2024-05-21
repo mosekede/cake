@@ -788,6 +788,149 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
     left: 0;
 }
 
+<<<<<<< HEAD
+=======
+ul.quick-access-cl-2.ft-link.col-lg-6.col-md-6.col-sm-6.col-6 {
+    width: 33%;
+}
+
+.footer-top .row.row--15.mt_dec--30 {
+    justify-content: space-between;
+}
+
+.rbt-btn i {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option {
+    text-align: right;
+}
+
+.default-exp-wrapper .filter-inner {
+    justify-content: space-around;
+}
+
+.rbt-card.card-list-2 .rbt-card-body {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.rbt-review .rating {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.rbt-card .rbt-card-body .rbt-card-title {
+    font-size: 18px;
+}
+
+.rbt-btn.btn-sm {
+    font-size: 14px;
+}
+
+.rbt-card.event-grid-card .rbt-card-body {
+    text-align: center;
+}
+
+.rbt-product-description .row {
+    justify-content: center;
+}
+
+.offset-lg-2 {
+    margin-left: 0;
+}
+
+.rbt-single-product .pro-qty {
+    margin-right: 0;
+    height: 60px;
+    margin-left: 20px;
+}
+
+body {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.rbt-single-product-area h2, .h2 {
+    font-size: var(--h4);
+}
+
+/* تست گالری محصول */
+
+
+.rbt-single-product-area .swiper{
+    padding:0;
+}
+
+.rbt-single-product-area .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.rbt-single-product-area .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rbt-single-product-area .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rbt-single-product-area .swiper {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rbt-single-product-area .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.rbt-single-product-area .swipr-single-product2 {
+    height: 80%;
+    width: 100%;
+    
+}
+
+.rbt-single-product-area .swipr-single-product {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: -32px !important;
+}
+
+.rbt-single-product-area .swipr-single-product .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.rbt-single-product-area .swipr-single-product .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.rbt-single-product-area .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* تست گالری محصول */
+>>>>>>> hadis-branch
 
 @media only screen and (max-width: 767px) {
 	.about-style-2 .slider-btn {
