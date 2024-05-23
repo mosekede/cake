@@ -929,6 +929,56 @@ p {
     object-fit: cover;
 }
 
+.bg-gradient-1 {
+    background-image: linear-gradient(268deg, #24b57726, #ffae0026) !important;
+}
+
+.rbt-breadcrumb-default .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.comment-list .comment .single-comment .comment-img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .rbt-breadcrumb-default .title {
+        font-size: 20px;
+    }
+}
+
+.team-style-default .inner .content .title, .rbt-default-card .inner .content .title {
+    font-size: 18px;
+}
+
+.inner .addto-cart-btn .rbt-btn {
+    padding: 0px 15px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.rbt-btn i {
+    padding-left: 0;
+}
+
+.bg-gradient-11 {
+    background-image: linear-gradient(180deg, #24b57726, #ffae0026, #FFFFFF 100%) !important;
+}
+
+p.title-Social-media {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service-card-5.variation-2 .inner .icon a::before {
+    background: linear-gradient(90deg, #fcae02, #12b580);
+}
+
+.rbt-service-area .row {
+    justify-content: center;
+}
 /* تست گالری محصول */
 >>>>>>> hadis-branch
 
