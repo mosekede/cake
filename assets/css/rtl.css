@@ -575,7 +575,7 @@ a.rbt-btn-link.left-icon i, button.rbt-btn-link.left-icon i, span.rbt-btn-link.l
 }
 
 ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
-    margin-top: 8px !important;
+    margin-top: 11px !important;
 }
 
 .copyright-style-1 .copyright-link li + li::after {
@@ -943,6 +943,33 @@ p {
     margin-left: 20px;
 }
 
+.phone-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rbt-conatct-area .rbt-cat-box-1 .inner {
+    height: 100% !important;
+}
+
+.rbt-conatct-area .rbt-cat-box-1 {
+    height: 100% !important;
+}
+
+.rbt-header-sec .rbt-header-sec-col {
+    flex-basis: auto;
+}
+
+.header-info .rbt-information-list li a {
+    line-height: 0;
+}
+
+.rbt-information-list li a i {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
 @media only screen and (max-width: 767px) {
     .rbt-breadcrumb-default .title {
         font-size: 20px;
@@ -978,6 +1005,40 @@ p.title-Social-media {
 
 .rbt-service-area .row {
     justify-content: center;
+}
+
+.rbt-search-dropdown .wrapper form input {
+    margin: 0 0 0 12px;
+}
+
+.rbt-search-dropdown.active {
+    transition: clip 1s linear, opacity 1s linear;
+}
+
+.rbt-search-dropdown {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.rbt-search-dropdown .wrapper {
+    width: 100vw;
+}
+
+.rbt-search-dropdown.close-search.active a:hover {
+    color: #fff;
+}
+
+.rbt-btn.icon-hover .btn-icon {
+    margin-inline-start: 7px;
+}
+
+@media only screen and (max-width: 575px) {
+    .rbt-search-dropdown .wrapper form input {
+        font-size: 14px;
+        /* margin-bottom: 15px; */
+        margin: 0 0 15px 0;
+    }
 }
 /* تست گالری محصول */
 >>>>>>> hadis-branch
