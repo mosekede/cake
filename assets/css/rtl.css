@@ -173,7 +173,7 @@
     --color-secondary-alt: #fef4f4;
     --color-extra: rgb(249, 249, 255);
     --color-extra2: #19b57d0a;
-    --color-border: #e6e3f1;
+    --color-border: #ebebeb;
     --color-border-2: #e6e3f14f;
     --color-badge-1: #303F5B;
     --color-badge-2: #F2C94C;
@@ -228,7 +228,7 @@
     --line-height-b4: 1;
     --h1: 52px;
     --h2: 35px;
-    --h3: 34px;
+    --h3: 24px;
     --h4: 22px;
     --h5: 20px;
     --h6: 16px;
@@ -1222,9 +1222,87 @@ img.symbol-of-trust-item:hover {
     padding-right: 75px;
 }
 
+.cart-table .table thead tr th:first-child {
+    border-radius: 0 6px 6px 0;
+}
+
+.cart-table .table thead tr th:last-child {
+    border-radius: 6px 0 0 6px;
+}
+
+.cart-table .table {
+    border-bottom: 8px solid #ffae0052;
+    margin: 0;
+}
+
+.cart-summary .cart-summary-wrap p span {
+    float: left;
+}
+
+.cart-summary .cart-summary-wrap h2 span {
+    float: left;
+}
+
+.cart-table .table thead {
+    background-image: none;
+}
+
+
+.cart-table .table tbody tr td {
+    text-align: center;
+}
+
+.checkout-cart-total ul li span {
+    float: left;
+}
+
+.checkout-cart-total p span {
+    float: left;
+}
+
+.checkout-cart-total h4 span {
+    float: left;
+}
+
+.checkout-form .check-box, .rbt-default-form .check-box {
+    float: right;
+}
+
+.checkout-form .check-box:last-child, .rbt-default-form .check-box:last-child {
+    margin-left: 0;
+    margin-right: 70px;
+}
+
+input[type=checkbox] ~ label::before, input[type=radio] ~ label::before {
+    right: 0;
+}
+
+input[type=checkbox] ~ label, input[type=radio] ~ label {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
+    right: 2px;
+}
+
+.rbt-my-account-tab-button a.active, .rbt-my-account-tab-button a:hover {
+    background-image: none;
+}
+
+.rbt-my-account-tab-button.nav .nav {
+    flex-wrap: nowrap;
+}
+
 @media only screen and (max-width: 767px) {
     .rbt-header-top.rbt-header-top-1.top-expended-activation {
         display: none;
+    }
+    .single-button.w-50 {
+        width: 100% !important;
+    }
+    .cart-table .table tbody tr td {
+        text-align: right;
     }
 }
 
