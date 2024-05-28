@@ -627,9 +627,6 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
     padding-top: 60px;
 }
 
-.text-start {
-    text-align: right !important;
-}
 
 .rbt-badge-2 .image {
     margin-right: auto;
@@ -1200,8 +1197,60 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 
 .rbt-my-account-tab-button.nav .nav {
     flex-wrap: nowrap;
+    background: whitesmoke;
+    margin: 0px 10px 10px 10px;
 }
 
+.rbt-image-gallery-1 .image-2 {
+    right: auto;
+    left: 10%;
+    top:20%;
+}
+
+.faq-1 .rbt-image-gallery-1 .image-2 {
+    right: 10%;
+    left: auto;
+    top:20%;
+}
+
+.rbt-header .mainmenu-nav .mainmenu > li > a {
+    font-size: 15px;
+    padding: 0 12px;
+}
+
+.rbt-arrow-between .rbt-swiper-arrow {
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+}
+
+.rbt-accordion-style .card .card-header button {
+    text-align: right;
+}
+
+.rbt-accordion-style .card .card-header button {
+    font-size: 16px;
+}
+
+.col-lg-12.title-content-production h3 {
+    padding: 10px;
+    margin-bottom: 0;
+    display: flex;
+
+}
+
+.col-lg-12.title-content-production {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffae00;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    text-align: right;
+}
 @media only screen and (max-width: 767px) {
     .rbt-header-top.rbt-header-top-1.top-expended-activation {
         display: none;
@@ -1211,6 +1260,13 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
     }
     .cart-table .table tbody tr td {
         text-align: right;
+    }
+    .col-lg-12.title-content-production {
+        flex-direction: column;
+    }
+    .col-lg-12.title-content-production h3 {
+        text-align: center;
+        
     }
 }
 
