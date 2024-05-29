@@ -320,7 +320,7 @@
             var swiper = new Swiper('.testimonial-item-3-activation', {
                 slidesPerView: 1,
                 spaceBetween: 0,
-                loop: false,
+                loop: true,
                 pagination: {
                     el: '.rbt-swiper-pagination',
                     clickable: true,

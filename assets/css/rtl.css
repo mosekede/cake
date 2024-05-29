@@ -501,7 +501,7 @@ ul.rbt-dropdown-menu li a .left-image {
 }
 
 .rbt-banner-1 {
-    background-image: linear-gradient(180deg, #24b57745, #ffae004d, #FFFFFF 100%) !important;
+    background-image: url(../images/bg/pic66.webp);
 }
 
 a.rbt-btn-link i, button.rbt-btn-link i, span.rbt-btn-link i {
@@ -512,8 +512,8 @@ a.rbt-btn-link i, button.rbt-btn-link i, span.rbt-btn-link i {
 .header-right .rbt-btn {
     padding: 0 20px;
     background: var(--color-primary);
-    height: 40px;
-    line-height: 40px;
+    height: 40px !important;
+    line-height: 40px !important;
     color: var(--color-white);
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -704,7 +704,31 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
 }
 
 .footer-top {
-    background-image: linear-gradient(45deg, #24b57726, #ffae0026);
+    background: #2a2a2a;
+}
+
+.footer-widget .ft-link li {
+    color: #ededed;
+}
+
+.footer-widget .ft-link li a {
+    color: #ededed;
+}
+
+.footer-style-1 .description {
+    color: #ededed;
+}
+
+.footer-style-1 .ft-title {
+    color: #ffae00;
+}
+
+.footer-top .social-default li a {
+    color: #ededed;
+}
+
+.footer-top .aparat svg {
+    fill: #ededed !important;
 }
 
 .swiper .rbt-cat-box-1 .inner {
@@ -870,7 +894,11 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
 }
 
 .copyright-area.copyright-style-1.ptb--20 {
-    background-image: linear-gradient(45deg, #24b57726, #ffae0026);
+    background: #2a2a2a;
+}
+
+.copyright-style-1 p {
+    color: #ededed;
 }
 
 .footer-style-1 .footer-top {
@@ -914,7 +942,7 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
 <<<<<<< HEAD
 =======
 ul.quick-access-cl-2.ft-link.col-lg-6.col-md-6.col-sm-6.col-6 {
-    width: 33%;
+    width: 38%;
 }
 
 .footer-top .row.row--15.mt_dec--30 {
@@ -1170,7 +1198,7 @@ ul.symbol-of-trust {
 }
 
 .logo a img {
-    max-height: 100px;
+    max-height: 90px;
     object-fit: cover;
 }
 
@@ -1180,10 +1208,11 @@ ul.symbol-of-trust {
 }
 
 img.symbol-of-trust-item {
-    width: 77px;
+    width: 66px;
     background: #fff;
     border-radius: 5px;
     padding: 5px;
+    margin-top: -2px;
 }
 
 img.symbol-of-trust-item:hover {
@@ -1349,6 +1378,53 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 .dropdown-item {
     text-align: right;
 }
+
+.rbt-btn {
+    height: 50px !important;
+    line-height: 50px !important;
+}
+
+.rbt-my-account-table .table td, .rbt-my-account-table table td {
+    padding: 10px 10px;
+}
+
+.cart-table .table tbody tr td {
+    padding: 15px 15px;
+}
+
+.rbt-banner-1 .content .inner .description {
+    padding-right: 0;
+    padding-left: 24px;
+}
+
+.text-start {
+    text-align: right!important;
+}
+
+.text-end {
+    text-align: left!important;
+}
+
+.bg-single-product{
+    background-image: url(../images/bg/pic68.webp);
+    background-size: cover;
+}
+
+.bg-contact{
+    background-image: url(../images/bg/pic69.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.title-color-2 .title, .title-color-2 .page-list li.active {
+    color: var(--bs-white) !important;
+}
+
+.title-color-2 .page-list li.active,.title-color-2 .page-list li a,.title-color-2 .page-list li .icon-right i {
+    color: var(--bs-white) !important;
+    opacity: 0.8;
+}
+
 @media only screen and (max-width: 767px) {
     .rbt-header-top.rbt-header-top-1.top-expended-activation {
         display: none;
@@ -1365,6 +1441,23 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
     .col-lg-12.title-content-production h3 {
         text-align: center;
         
+    }
+    .quick-access > li {
+        margin-bottom: -7px;
+    }
+    .rbt-btn.btn-lg {
+        font-size: 14px;
+    }
+    .rbt-overlay-page-wrapper .breadcrumb-image-container {
+        border-bottom: 1px solid #ededed;
+    }
+    .form-group label {
+        font-size: 15px;
+    }
+    .popup-mobile-menu .rbt-information-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
@@ -1484,10 +1577,7 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
         transform: scale(1);
     }
 
-    .rbt-btn {
-        height: 50px !important;
-        line-height: 50px !important;
-    }
+    
 
     .rbt-swiper-pagination .swiper-pagination-bullet {
         margin: 0 8px !important;
