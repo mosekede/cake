@@ -654,10 +654,7 @@ a.rbt-btn-link.left-icon i, button.rbt-btn-link.left-icon i, span.rbt-btn-link.l
     box-shadow: inset 0 0 0 1px #fcd37f;
 }
 
-.rbt-section-gapBottom {
-    padding-bottom: 120px;
-    padding-top: 120px;
-}
+
 
 .rbt-testimonial-box .inner::before {
     right: auto;
@@ -740,6 +737,7 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
     padding-top: 30px;
 }
 
+<<<<<<< HEAD
 .rbt-section-gapBottom {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -752,6 +750,8 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
 =======
 >>>>>>> hadis-branch
 
+=======
+>>>>>>> hadis-branch
 .rbt-badge-2 .image {
     margin-right: auto;
     margin-left: 10px;
@@ -806,9 +806,9 @@ ul.social-icon.social-default.icon-naked.justify-content-start.mt--20 {
     fill: #ffffff !important;
 } */
 
-.rbt-breadcrumb-default.rbt-breadcrumb-style-3 {
+/* .rbt-breadcrumb-default.rbt-breadcrumb-style-3 {
     background-image: linear-gradient(268deg, #24b57745, #ffae004d);
-}
+} */
 
 .ml--10 {
     margin-left: 0;
@@ -1225,9 +1225,9 @@ img.symbol-of-trust-item:hover {
     right: 0;
 }
 
-.rbt-overlay-page-wrapper .breadcrumb-image-container .breadcrumb-image-wrapper {
+/* .rbt-overlay-page-wrapper .breadcrumb-image-container .breadcrumb-image-wrapper {
     background-image: linear-gradient(268deg, #24b57745, #ffae004d) !important;
-}
+} */
 
 .meta-list li .author-thumbnail {
     margin-right: 0;
@@ -1416,13 +1416,110 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
     background-position: center;
 }
 
-.title-color-2 .title, .title-color-2 .page-list li.active {
+.bg-about{
+    background-image: url(../images/bg/pic71.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-faq{
+    background-image: url(../images/bg/pic70.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-blog-archive{
+    background-image: url(../images/bg/pic72.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-blog-details{
+    background-image: url(../images/bg/pic79.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-campaign{
+    background-image: url(../images/bg/pic74.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-cart{
+    background-image: url(../images/bg/pic75.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-checkout{
+    background-image: url(../images/bg/pic76.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-Consultation{
+    background-image: url(../images/bg/pic77.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-Content-production{
+    background-image: url(../images/bg/pic78.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-course-archive{
+    background-image: url(../images/bg/pic80.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-my-account{
+    background-image: url(../images/bg/pic81.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-shop{
+    background-image: url(../images/bg/pic82.webp);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bg-privacy-policy{
+    background-image: url(../images/bg/pic83.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-course-details{
+    background-image: url(../images/bg/pic87.webp);
+    background-size: cover;
+    background-position: top;
+}
+
+
+.title-color-2 .title, .title-color-2 .page-list li.active, .title-color-2 .rbt-short-item .course-index, .title-color-2 .rbt-course-top-wrapper .select-label,.title-color-2 .description, .title-color-2 a,.title-color-2 .rbt-meta li,.title-color-2 .rbt-author-info{
     color: var(--bs-white) !important;
+}
+
+.title-color-2 .rbt-sorting-list .course-switch-layout li button {
+    color: var(--bs-white);
+}
+
+.rbt-sorting-list .course-switch-layout li button.active {
+    color: var(--color-primary) !important;
 }
 
 .title-color-2 .page-list li.active,.title-color-2 .page-list li a,.title-color-2 .page-list li .icon-right i {
     color: var(--bs-white) !important;
     opacity: 0.8;
+}
+
+.rbt-btn.rounded-player-2 {
+    height: 80px !important;
 }
 
 @media only screen and (max-width: 767px) {
