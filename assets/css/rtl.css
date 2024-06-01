@@ -543,9 +543,9 @@ a.rbt-btn-link i, button.rbt-btn-link i, span.rbt-btn-link i {
     color: #ffffff !important;
 }
 
-.rbt-price .off-price {
-    margin-left: 0;
-    margin-right: 7px;
+.rbt-price {
+    display: flex;
+    align-items: flex-start;
 }
 
 .rbt-author-meta .rbt-avater {
@@ -1007,15 +1007,21 @@ p {
     font-size: 16px;
 }
 
-.rbt-single-product-area h2, .h2 {
+.rbt-card .rbt-card-body .rbt-card-bottom {
+    align-items: flex-end;
+    min-height: 54px;
+}
+
+.rbt-single-product-area h2,
+.h2 {
     font-size: var(--h4);
 }
 
 /* تست گالری محصول */
 
 
-.rbt-single-product-area .swiper{
-    padding:0;
+.rbt-single-product-area .swiper {
+    padding: 0;
 }
 
 .rbt-single-product-area .swiper {
@@ -1054,7 +1060,7 @@ p {
 .rbt-single-product-area .swipr-single-product2 {
     height: 80%;
     width: 100%;
-    
+
 }
 
 .rbt-single-product-area .swipr-single-product {
@@ -1133,7 +1139,8 @@ p {
     }
 }
 
-.team-style-default .inner .content .title, .rbt-default-card .inner .content .title {
+.team-style-default .inner .content .title,
+.rbt-default-card .inner .content .title {
     font-size: 18px;
 }
 
@@ -1302,29 +1309,35 @@ img.symbol-of-trust-item:hover {
     float: left;
 }
 
-.checkout-form .check-box, .rbt-default-form .check-box {
+.checkout-form .check-box,
+.rbt-default-form .check-box {
     float: right;
 }
 
-.checkout-form .check-box:last-child, .rbt-default-form .check-box:last-child {
+.checkout-form .check-box:last-child,
+.rbt-default-form .check-box:last-child {
     margin-left: 0;
     margin-right: 70px;
 }
 
-input[type=checkbox] ~ label::before, input[type=radio] ~ label::before {
+input[type=checkbox]~label::before,
+input[type=radio]~label::before {
     right: 0;
 }
 
-input[type=checkbox] ~ label, input[type=radio] ~ label {
+input[type=checkbox]~label,
+input[type=radio]~label {
     padding-left: 0;
     padding-right: 20px;
 }
 
-input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
+input[type=checkbox]~label::after,
+input[type=radio]~label::after {
     right: 2px;
 }
 
-.rbt-my-account-tab-button a.active, .rbt-my-account-tab-button a:hover {
+.rbt-my-account-tab-button a.active,
+.rbt-my-account-tab-button a:hover {
     background-image: none;
 }
 
@@ -1337,16 +1350,16 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 .rbt-image-gallery-1 .image-2 {
     right: auto;
     left: 10%;
-    top:20%;
+    top: 20%;
 }
 
 .faq-1 .rbt-image-gallery-1 .image-2 {
     right: 10%;
     left: auto;
-    top:20%;
+    top: 20%;
 }
 
-.rbt-header .mainmenu-nav .mainmenu > li > a {
+.rbt-header .mainmenu-nav .mainmenu>li>a {
     font-size: 15px;
     padding: 0 12px;
 }
@@ -1390,7 +1403,8 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
     line-height: 50px !important;
 }
 
-.rbt-my-account-table .table td, .rbt-my-account-table table td {
+.rbt-my-account-table .table td,
+.rbt-my-account-table table td {
     padding: 10px 10px;
 }
 
@@ -1404,110 +1418,117 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 }
 
 .text-start {
-    text-align: right!important;
+    text-align: right !important;
 }
 
 .text-end {
-    text-align: left!important;
+    text-align: left !important;
 }
 
-.bg-single-product{
+.bg-single-product {
     background-image: url(../images/bg/pic68.webp);
     background-size: cover;
 }
 
-.bg-contact{
+.bg-contact {
     background-image: url(../images/bg/pic69.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-about{
+.bg-about {
     background-image: url(../images/bg/pic71.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-faq{
+.bg-faq {
     background-image: url(../images/bg/pic70.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-blog-archive{
+.bg-blog-archive {
     background-image: url(../images/bg/pic72.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-blog-details{
+.bg-blog-details {
     background-image: url(../images/bg/pic79.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-campaign{
+.bg-campaign {
     background-image: url(../images/bg/pic74.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-cart{
+.bg-cart {
     background-image: url(../images/bg/pic75.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-checkout{
+.bg-checkout {
     background-image: url(../images/bg/pic76.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-Consultation{
+.bg-Consultation {
     background-image: url(../images/bg/pic77.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-Content-production{
+.bg-Content-production {
     background-image: url(../images/bg/pic78.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-course-archive{
+.bg-course-archive {
     background-image: url(../images/bg/pic80.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-my-account{
+.bg-my-account {
     background-image: url(../images/bg/pic81.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-shop{
+.bg-shop {
     background-image: url(../images/bg/pic82.webp);
     background-size: cover;
     background-position: bottom;
 }
 
-.bg-privacy-policy{
+.bg-privacy-policy {
     background-image: url(../images/bg/pic83.webp);
     background-size: cover;
     background-position: center;
 }
 
-.bg-course-details{
+.bg-course-details {
     background-image: url(../images/bg/pic87.webp);
     background-size: cover;
     background-position: top;
 }
 
 
-.title-color-2 .title, .title-color-2 .page-list li.active, .title-color-2 .rbt-short-item .course-index, .title-color-2 .rbt-course-top-wrapper .select-label,.title-color-2 .description, .title-color-2 a,.title-color-2 .rbt-meta li,.title-color-2 .rbt-author-info{
+.title-color-2 .title,
+.title-color-2 .page-list li.active,
+.title-color-2 .rbt-short-item .course-index,
+.title-color-2 .rbt-course-top-wrapper .select-label,
+.title-color-2 .description,
+.title-color-2 a,
+.title-color-2 .rbt-meta li,
+.title-color-2 .rbt-author-info {
     color: var(--bs-white) !important;
 }
 
@@ -1519,7 +1540,9 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
     color: var(--color-primary) !important;
 }
 
-.title-color-2 .page-list li.active,.title-color-2 .page-list li a,.title-color-2 .page-list li .icon-right i {
+.title-color-2 .page-list li.active,
+.title-color-2 .page-list li a,
+.title-color-2 .page-list li .icon-right i {
     color: var(--bs-white) !important;
     opacity: 0.8;
 }
@@ -1529,7 +1552,7 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 }
 
 .rbt-course-review .comment-meta {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .rbt-course-review .comment-meta {
@@ -1563,7 +1586,7 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 }
 
 .about-author .media-body .author-info .title {
-    
+
     margin-bottom: 15px;
     line-height: 18px;
 }
@@ -1586,36 +1609,64 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
     padding: 0;
 }
 
+.new-ticket label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    color: var(--color-heading);
+}
+
+.form-group.focused label {
+    top: -15px;
+    font-size: 12px !important;
+    color: var(--color-primary);
+    transition: 0.3s;
+}
+
+.course-sidebar .social-share-wrapper {
+    background: #fff9eb;
+}
+
 
 @media only screen and (max-width: 767px) {
     .rbt-header-top.rbt-header-top-1.top-expended-activation {
         display: none;
     }
+
     .single-button.w-50 {
         width: 100% !important;
     }
+
     .cart-table .table tbody tr td {
         text-align: right;
     }
+
     .col-lg-12.title-content-production {
         flex-direction: column;
     }
+
     .col-lg-12.title-content-production h3 {
         text-align: center;
-        
+
     }
-    .quick-access > li {
+
+    .quick-access>li {
         margin-bottom: -7px;
     }
+
     .rbt-btn.btn-lg {
         font-size: 14px;
     }
+
     .rbt-overlay-page-wrapper .breadcrumb-image-container {
         border-bottom: 1px solid #ededed;
     }
+
     .form-group label {
         font-size: 15px;
     }
+
     .popup-mobile-menu .rbt-information-list {
         display: flex;
         flex-direction: column;
@@ -1630,6 +1681,7 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
         margin: 0 0 15px 0;
     }
 }
+
 /* تست گالری محصول */
 >>>>>>> hadis-branch
 
@@ -1721,7 +1773,7 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
     .rbt-arrow-between .rbt-swiper-arrow {
         top: 100%;
         bottom: 0 !important;
-        z-index: 10!important;
+        z-index: 10 !important;
         width: 45px;
         height: 45px;
         opacity: 1;
@@ -1739,7 +1791,7 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
         transform: scale(1);
     }
 
-    
+
 
     .rbt-swiper-pagination .swiper-pagination-bullet {
         margin: 0 8px !important;
@@ -1759,10 +1811,14 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 }
 
 @media only screen and (max-width: 767px) {
-    h2, .h2 {
+
+    h2,
+    .h2 {
         font-size: 22px;
     }
-    p, .rbt-feature .feature-content .feature-description {
+
+    p,
+    .rbt-feature .feature-content .feature-description {
         font-size: 15px;
     }
 }
@@ -1776,6 +1832,7 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
         z-index: 2;
         left: 40px;
     }
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 .bg-color-primary-opacity {
@@ -1791,3 +1848,6 @@ input[type=checkbox] ~ label::after, input[type=radio] ~ label::after {
 
 >>>>>>> hadis-branch
 
+=======
+}
+>>>>>>> hadis-branch
