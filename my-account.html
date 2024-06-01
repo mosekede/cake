@@ -834,13 +834,10 @@
                                 <a href="#my-Courses" data-bs-toggle="tab">دوره های من</a>
                                 <a href="#address-edit" data-bs-toggle="tab">آدرس</a>
                                 <a href="#account-info" data-bs-toggle="tab">جزئیات حساب کاربری</a>
-
-
                                 <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
                                     aria-controls="collapseExample">
                                     تیکت
                                 </a>
-
                                 <div class="nav collapse flex-column" id="collapseExample" role="tablist">
                                     <a class="nav-item" href="#new-ticket" data-bs-toggle="tab">تیکت جدید</a>
                                     <a class="nav-item" href="#list-ticket" data-bs-toggle="tab">لیست تیکت ها</a>
@@ -1068,7 +1065,50 @@
                                 <div class="tab-pane fade" id="new-ticket" role="tabpanel">
                                     <div class="rbt-my-account-inner">
                                         <h3>تیکت جدید</h3>
+                                        <div class="new-ticket">
+                                            <div class="rbt-comment-area">
+                                                <div class="comment-respond">
+                                                    <form action="#">
+                                                        <p class="comment-notes"><span id="email-notes">موارد ضروری با * علامت گذاری شده اند<span class="required"></span></p>
+                                                        <div class="row row--10">
+                                                            <div class="col-md-12 col-12 mb--20">
+                                                                <label>لطفا یک محصول را انتخاب کنید</label>
+                                                                <div class="rbt-modern-select bg-transparent height-45">
+                                                                    <select class="w-100">
+                                                                        <option>محصول1</option>
+                                                                        <option>دوره آموزشی1</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-12">
+                                                                <div class="form-group">
+                                                                    <label for="name">عنوان تیکت</label>
+                                                                    <input id="name" type="text">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label for="message">پیام خود را بنویسید</label>
+                                                                    <textarea id="message" name="message"></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <a class="rbt-btn btn-gradient hover-icon-reverse" href="#">
+                                                                    <span class="icon-reverse-wrapper">
+                                                                        <span class="btn-text">ارسال تیکت</span>
+                                                                        <span class="btn-icon"><i class="feather-arrow-left"></i></span>
+                                                                        <span class="btn-icon"><i class="feather-arrow-left"></i></span>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+    
+                                        </div>
                                     </div>
+                                    
                                 </div>
                                 <!-- Single Tab Content End -->
 
